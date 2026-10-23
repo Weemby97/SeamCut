@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#4338ca"/>
+    </linearGradient>
+    <clipPath id="photo">
+      <rect x="104" y="104" width="304" height="304" rx="34"/>
+    </clipPath>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <g clip-path="url(#photo)">
+    <path d="M100 100 H246 L226 176 L258 240 L230 304 L262 368 L242 412 H100 Z" fill="#ffffff"/>
+    <path d="M266 100 H412 V412 H262 L282 368 L250 304 L278 240 L246 176 Z" fill="#ffffff" fill-opacity="0.5"/>
+    <circle cx="170" cy="184" r="24" fill="#fbbf24"/>
+    <path d="M100 412 V352 L148 288 L186 336 L206 312 L240 360 L236 412 Z" fill="url(#hill)"/>
+    <path d="M284 412 L316 340 L352 384 L376 352 L412 400 V412 Z" fill="#6366f1" fill-opacity="0.45"/>
+  </g>
+  <polyline points="256,100 236,176 268,240 240,304 272,368 252,412" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-dasharray="1 15" opacity="0.95" clip-path="url(#photo)"/>
+</svg>
